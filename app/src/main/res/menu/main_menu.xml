@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/search"
+        android:title="@string/search"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/ifMenu"
+        android:icon="@drawable/menu"
+        android:title="@string/ifMenu"
+        app:showAsAction="ifRoom">
+
+        <menu>
+            <item
+                android:id="@+id/copy"
+                android:orderInCategory="1"
+                android:title="@string/copy"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/save"
+                android:orderInCategory="2"
+                android:title="@string/save"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/share"
+                android:orderInCategory="3"
+                android:title="@string/share"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+</menu>

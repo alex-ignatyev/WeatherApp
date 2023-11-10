@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:background="#45F4F0F0"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:visibility="invisible"
+    tools:background="@color/black"
+    tools:visibility="visible">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/sunrise"
+        app:tint="#FFF" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text"
+        android:textSize="12sp"
+        tools:text="Sunrise" />
+
+    <TextView
+        android:id="@+id/value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text"
+        android:textSize="12sp"
+        tools:text="06:15 AM" />
+
+</LinearLayout>
